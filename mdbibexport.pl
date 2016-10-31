@@ -30,7 +30,7 @@ open my $fm, '<', $namemd or die "Could not open '$namemd' $!\n";
 my $mdcitations = "";
 while (my $line = <$fm>) {
    chomp $line;
-   if ($line =~ /(?<=@)(.+?)(?=[\],])/){
+   if ($line =~ /(?<=@)(.+?)(?=[\];])/){
    $mdcitations .= "$1,"};
 }
 
