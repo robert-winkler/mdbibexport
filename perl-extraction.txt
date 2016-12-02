@@ -1,0 +1,1 @@
+    pandoc -t json agile-editing-pandoc.md | perl -ne 'foreach (/"citationId":"([^"]*)"/g) { print $_, "\n" }'
