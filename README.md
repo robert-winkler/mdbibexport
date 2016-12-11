@@ -5,10 +5,12 @@ Perl <https://www.perl.org/> and BibTool <http://gerd-neugebauer.de/software/TeX
 ## License
 General Public License (GPL), version 3.0 <https://www.gnu.org/licenses/gpl-3.0.html>.
 ## Release version
-0.10.
+0.20.
 ## Release date
-2016/10/31.
+2016/12/11.
 ## Author
 Dr. Robert Winkler.
+## Contributor
+Alfred Krewinkel
 ## Contact
 robert.winkler@bioprocess.org, robert.winkler@cinvestav.mx.
