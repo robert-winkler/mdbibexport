@@ -11,6 +11,6 @@ General Public License (GPL), version 3.0 <https://www.gnu.org/licenses/gpl-3.0.
 ## Author
 Dr. Robert Winkler.
 ## Contributor
-Alfred Krewinkel.
+Albert Krewinkel.
 ## Contact
 robert.winkler@bioprocess.org, robert.winkler@cinvestav.mx.

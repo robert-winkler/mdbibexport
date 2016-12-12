@@ -4,7 +4,7 @@
 #Version: 0.2
 #Release: 2016/10/31
 #Copyright: Dr. Robert Winkler
-#Contributor: Alfred Krewinkel
+#Contributor: Albert Krewinkel
 #Contact: robert.winkler@bioprocess.org, robert.winkler@cinvestav.mx
 #License: General Public License (GPL), 3.0
 
