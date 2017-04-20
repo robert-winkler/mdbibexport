@@ -27,7 +27,8 @@ open my $fm, '<', $namemd or die "Could not open '$namemd' $!\n";
 
 my $mdcitations = "";
 
-system('pandoc -t json agile-editing-pandoc.md > mdbibexport.tmp');
+my $pdcmd = 'pandoc -t json '. $namemd . ' > mdbibexport.tmp';
+system($pdcmd);
 my $pandoctmp = "mdbibexport.tmp";
 open my $fm2, '<', $pandoctmp or die "Could not open '$pandoctmp' $!\n";
 
@@ -46,6 +47,6 @@ print $fa "\\citation{$mdcitations}\n";
 close $fa;
 print "$nameaux created.\n";
 
-my $btcmd = 'bibtool -x '. $nameaux . ' -o ' . $nameout;
+my $btcmd = 'bibtool -v -x '. $nameaux . ' -o ' . $nameout;
 system($btcmd);
 print "$nameout created.\n";
